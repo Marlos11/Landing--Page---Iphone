@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>iPhone - Apple (Brasil)</title>
+    <script src="./scripts.js"></script>
 </head>
 
 <body>
@@ -36,12 +37,12 @@
             <p class="escolha-cor">Escolha sua cor </p>
 
             <div>
-                <button class="blue troca-cor "></button>
-                <button class="yellow troca-cor "></button>
-                <button class="white troca-cor "></button>
-                <button class="black troca-cor "></button>
-                <button class="red troca-cor "></button>
-                <button class="purple troca-cor "></button>
+                <button onclick="changeColor('#81a5c4'); changeImg('./img/iphone-azul.png') " class ="blue troca-cor "></button>
+                <button onclick="changeColor('#f7da47'); changeImg('./img/iphone-amarelo.png')  " class="yellow troca-cor "></button>
+                <button onclick="changeColor('#c1c1c1'); changeImg('./img/iphone-branco.png')  "class="white troca-cor "></button>
+                <button onclick="changeColor('#272d33'); changeImg('./img/iphone-preto.png')  "class="black troca-cor "></button>
+                <button onclick="changeColor('#b50012'); changeImg('./img/iphone-vermelho.png')  "class="red troca-cor "></button>
+                <button onclick="changeColor('#ede7f1'); changeImg('./img/iphone-roxo.png')  "class="purple troca-cor "></button>
 
             </div>
         </main>
